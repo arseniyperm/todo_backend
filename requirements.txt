@@ -1,0 +1,14 @@
+fastapi
+sqlalchemy
+pydantic
+pydantic-settings
+redis
+uvicorn
+python-dotenv
+python-jose
+passlib[bccrypt]
+bcrypt
+python-multipart
+redis
+python-json-logger
+rsdtyud5iudjd

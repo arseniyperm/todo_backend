@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+      - ./database.sqlite3:/app/database.sqlite3
+    env_file:
+      - .env
+    environment:
+      - SERVER_HOST=0.0.0.0
+      - DATABASE_URL=sqlite:///./database.sqlite3
