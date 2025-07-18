@@ -51,4 +51,5 @@ pip install -r requirements.txt
 -запускать файл **src/todo/__main__.py**, указав путь к **.env** файлу
 
 Документация приложения будет доступно по адресу: [http://localhost:8000/docs](http://localhost:8000/docs)
+
 Логи операций можно посмотреть в папке **logs** приложения
