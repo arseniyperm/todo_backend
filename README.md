@@ -29,7 +29,7 @@ docker pull arseniyperm/tset_todo-web
 - Host port: 8000
 - Environment variables (_variable:_ jwt_secret, _value:_ your_secret_key)
 
-Документация приложения будет доступно по адресу: [http://localhost:8000/docs](http://localhost:8000/docs)
+Документация приложения будет доступна по адресу: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ### Вариант 2: Локальный запуск
 
@@ -54,8 +54,8 @@ pip install -r requirements.txt
 
 **Для запуска можно использовать конфигурацию запуска:**
 - запускать модуль **todo**, указав рабочую директорию и путь к **.env** файлу
-- запускать файл **src/todo/__main__.py**, указав путь к **.env** файлу
+- запускать файл **src/todo/\_\_main\_\_.py**, указав путь к **.env** файлу
 
-Документация приложения будет доступно по адресу: [http://localhost:8000/docs](http://localhost:8000/docs)
+Документация приложения будет доступна по адресу: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 Логи операций можно посмотреть в файле **logs/todo_service.log** приложения
