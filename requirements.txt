@@ -11,4 +11,3 @@ bcrypt
 python-multipart
 redis
 python-json-logger
-rsdtyud5iudjd
