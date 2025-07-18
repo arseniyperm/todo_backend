@@ -46,6 +46,7 @@ pip install -r requirements.txt
 
 
 **Использование Redis**
+
 В репозиторий включена папка Redis-x64
 
 Для логирования и кэширования в Redis, запустите файл **redis-server.exe**
